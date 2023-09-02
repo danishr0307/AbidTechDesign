@@ -20,7 +20,7 @@ const FirstFold = () => {
               <span className="textColorGreen font-bold ">
                 Delivery Solution.
               </span>
-              &nbsp;I enjoy creating User-centric, delightful, and human
+              &nbsp;I enjoy abidtech creating User-centric, delightful, and human
               experiences.
             </h2>
             <div className="pt-10">
