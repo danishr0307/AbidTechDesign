@@ -1,0 +1,31 @@
+<svg width="89" height="17" viewBox="0 0 89 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="89" height="17" fill="#E5E5E5"/>
+<g id="Dev Place (Devloper)">
+<rect id="Rectangle 2476" x="-8944" y="-3351" width="19213" height="12891" rx="140" fill="white" stroke="black" stroke-width="20"/>
+<g id="Production - V.1" clip-path="url(#clip0_0_1)">
+<rect width="1280" height="9282" transform="translate(-596 -986)" fill="white"/>
+<g id="FULL CONTAINER">
+<rect id="MAIN BG" x="-596" y="-987" width="1280" height="2061" fill="#042825"/>
+<g id="COMPANY CLIENT">
+<g id="COMPANY LOGO">
+<g id="Group">
+<path id="Vector" d="M0 16.2H9.5V13.6H3.3V9.3H8.8V6.7H3.3V2.6H9.5V0H0V16.2Z" fill="#D3EAE9"/>
+<path id="Vector_2" d="M15.8 0H12.5V16.2H21.2V13.6H15.8V0Z" fill="#D3EAE9"/>
+<path id="Vector_3" d="M26.5998 0H23.2998V16.2H26.5998V0Z" fill="#D3EAE9"/>
+<path id="Vector_4" d="M28.9004 2.6H33.3004V16.2H36.6004V2.6H41.0004V0H28.9004V2.6Z" fill="#D3EAE9"/>
+<path id="Vector_5" d="M43.4004 16.2H52.9004V13.6H46.6004V9.3H52.2004V6.7H46.6004V2.6H52.9004V0H43.4004V16.2Z" fill="#D3EAE9"/>
+<path id="Vector_6" d="M65.0998 7.9C65.8998 7.6 66.5998 7.2 67.0998 6.6C67.5998 6 67.8998 5.2 67.8998 4.2C67.8998 3.4 67.6998 2.7 67.2998 2C66.8998 1.4 66.2998 0.9 65.4998 0.5C64.6998 0.1 63.6998 0 62.5998 0H55.7998V16.2H62.8998C63.9998 16.2 64.9998 16 65.7998 15.6C66.5998 15.2 67.1998 14.7 67.6998 14.1C68.0998 13.4 68.3998 12.7 68.3998 11.8C68.3998 10.8 68.0998 10 67.4998 9.2C66.7998 8.5 66.0998 8.1 65.0998 7.9ZM59.0998 2.6H62.0998C62.8998 2.6 63.4998 2.8 63.8998 3.1C64.2998 3.4 64.4998 4 64.4998 4.6C64.4998 5.3 64.2998 5.8 63.8998 6.1C63.4998 6.4 62.8998 6.6 62.0998 6.6H59.0998V2.6ZM64.2998 13C63.8998 13.4 63.1998 13.6 62.3998 13.6H59.0998V9.2H62.2998C63.0998 9.2 63.6998 9.4 64.1998 9.8C64.6998 10.2 64.8998 10.7 64.8998 11.4C64.9998 12.1 64.7998 12.6 64.2998 13Z" fill="#D3EAE9"/>
+<path id="Vector_7" d="M74.2004 0H70.9004V16.2H74.2004V0Z" fill="#D3EAE9"/>
+<path id="Vector_8" d="M88.2 0H77V2.7H84.3L77 13.7V16.2H88.2V13.5H80.8L88.2 2.5V0Z" fill="#D3EAE9"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1280" height="9282" fill="white" transform="translate(-596 -986)"/>
+</clipPath>
+</defs>
+</svg>

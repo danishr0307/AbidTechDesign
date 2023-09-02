@@ -1,3 +1,83 @@
+@import url("https://fonts.cdnfonts.com/css/lota-grotesque-alt-1");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-color-cursol: #ff058c;
+  --text-color-green: #008f7c;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #042825;
+  font-size: 1rem;
+  font-family: "Lota Grotesque", sans-serif;
+}
+.leading-height {
+  line-height: 1.4;
+}
+.textAnimations {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: cursor 1s step-start infinite, text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #ffffff;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 16.5ch;
+  }
+}
+
+.MarginTextAuto {
+  margin: auto 0px;
+  display: inline-grid;
+  align-items: center;
+  width: 100%;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+.bg-color-Cursor {
+  background: var(--bg-color-cursol);
+  border-radius: 3px;
+}
+.videoFix {
+  height: 220px !important;
+  width: 180px !important;
+  border: 8px solid #ffffff;
+  border-radius: 10px;
+  z-index: 1;
+  object-fit: fill;
+}
+.closeIcon {
+  z-index: 2;
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  right: -6px;
+  top: -6px;
+}
+.fullWidthIcon {
+  z-index: 2;
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+}
+.textColorGreen {
+  color: var(--text-color-green);
+}
