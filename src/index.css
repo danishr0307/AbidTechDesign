@@ -55,10 +55,10 @@ body {
   border-radius: 3px;
 }
 .videoFix {
-  height: 220px !important;
-  width: 180px !important;
-  border: 8px solid #ffffff;
-  border-radius: 10px;
+  height: 17rem !important;
+  width: 10rem !important;
+  border: 2px solid #ffffff;
+  border-radius: 5%;
   z-index: 1;
   object-fit: fill;
 }
@@ -80,4 +80,13 @@ body {
 }
 .textColorGreen {
   color: var(--text-color-green);
+}
+.videoHeightInc {
+  /* height : calc(var(--vh, 1vh) * (9/16)); 4:3 */
+  height: 20rem;
+  width: 12rem;
+  border: 2px solid #ffffff;
+  border-radius: 5%;
+  z-index: 1;
+  object-fit: fill;
 }
