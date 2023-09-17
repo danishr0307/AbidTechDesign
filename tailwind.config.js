@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     fontSize: {
       firstTextHeading: "32px",
-      secondTextHeading: "20px",
+      secondTextHeading: "18px",
       thirdTextHeading: "18px",
+      fourthTextHeading: "0.95rem",
+      fiveTextHeading: "26px",
+      SixTextHeading: "16px",
     },
 
     extend: {
