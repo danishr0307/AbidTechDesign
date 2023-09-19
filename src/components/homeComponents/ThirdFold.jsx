@@ -1,6 +1,6 @@
 import React from "react";
-import ThirdSectionImg  from "../../images/ThirdSectionImg.svg"
-import vectorArrowTH from "../../images/Vector-arrow.png";
+import ThirdSectionImg from "../../images/ThirdSectionImg.svg";
+import vectorArrowTH from "../../images/VectorArrowBlack.svg";
 import ZPayImg from "../../images/ZPayImgesFull.svg";
 
 const ThirdFold = () => {
