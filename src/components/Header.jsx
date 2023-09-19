@@ -27,7 +27,7 @@ const Header = () => {
                 Get in Touch
               </button>
             </ul>
-            {/* ----------Humburger Menu-------------- */}
+            {/* ----------HumBurger Menu-------------- */}
             <div
               className="md:hidden"
               onClick={() => {
@@ -49,7 +49,9 @@ const Header = () => {
           </nav>
           <div
             className={
-              isopen ? "list-none text-center bg-white mt-2" : "hidden"
+              isopen
+                ? "list-none text-center bg-white mt-2 absolute w-4/5"
+                : "hidden"
             }>
             {navData.map((data, index) => {
               return (
@@ -64,7 +66,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* ----------Humburger Menu-------------- */}
+        {/* ----------HumBurger Menu-------------- */}
       </div>
     </>
   );
