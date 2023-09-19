@@ -7,7 +7,7 @@ const FourthFold = () => {
     <div className="bg-[#D3EAE9]">
       <div className="mx-10">
         <div className=" py-10">
-          <img src={CRMDashboardImg} alt="" />
+          <img className="imgWidth" src={CRMDashboardImg} alt="" />
         </div>
         <div className="text-[#042825] text-fiveTextHeading py-12">
           Set up a sales incentive Program. Elitebiz CRM

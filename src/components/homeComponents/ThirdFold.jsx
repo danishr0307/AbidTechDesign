@@ -20,7 +20,7 @@ const ThirdFold = () => {
         </div>
         <div className="">
           <div className="py-10">
-            <img src={ThirdSectionImg} alt="" />
+            <img className="imgWidth" src={ThirdSectionImg} alt="" />
           </div>
           <div className="text-fiveTextHeading text-[#042825] py-4">
             Source Correct Saas
@@ -48,7 +48,7 @@ const ThirdFold = () => {
           <div className="pt-10">
             <div className="bg-[#FF154F]">
               <div className="pt-5">
-                <img src={ZPayImg} alt="" />
+                <img className="imgWidth" src={ZPayImg} alt="" />
               </div>
             </div>
             <div className="text-fiveTextHeading text-[#042825] py-10">
