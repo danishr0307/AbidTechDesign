@@ -1,12 +1,14 @@
 import React from "react";
-//import vectorArrowTH from "../../images/VectorArrowBlack.svg";
-//import ZPayImg from "../../images/ZPayImgesFull.svg";
-import vectorArrowTH from "../../images/Vector-arrow.png"
+import CRMDashboardImg from "../../images/CRM-Dashboard-Images.svg";
+import vectorArrowTH from "../../images/VectorArrowBlack.svg";
 
 const FourthFold = () => {
   return (
     <div className="bg-[#D3EAE9]">
       <div className="mx-10">
+        <div className=" py-10">
+          <img src={CRMDashboardImg} alt="" />
+        </div>
         <div className="text-[#042825] text-fiveTextHeading py-12">
           Set up a sales incentive Program. Elitebiz CRM
         </div>
@@ -16,16 +18,6 @@ const FourthFold = () => {
           smoother than ever. With over 15,000 optimized apps and plug‑ins
         </div>
         <div className="">
-          <div className="py-10">
-            <img src="" alt="" />
-          </div>
-          <div className="text-fiveTextHeading text-[#042825] py-4">
-            Source Correct Saas
-          </div>
-          <div className="text-SixTextHeading py-4 text-[#042825]">
-            Crisp Designing a new mobile experience for the all-in-one messaging
-            platform.
-          </div>
           <div className="py-16">
             <span className="text-secondTextHeading font-semibold">
               <a href="" className=" inline-flex" target="_blank">

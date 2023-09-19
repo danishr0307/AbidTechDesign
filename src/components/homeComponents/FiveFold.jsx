@@ -1,4 +1,5 @@
 import React from "react";
+import LiveTrackingImg from "../../images/Live-Tracking-Images.svg"
 
 const FiveFold = () => {
   return (
@@ -13,7 +14,7 @@ const FiveFold = () => {
               It’s quick and easy to find just what you’re looking for in Maps.
             </div>
             <div className="py-10">
-              <img className="imgWidth" src="" alt="LiveTra" />
+              <img className="imgWidth" src={LiveTrackingImg} alt="LiveTra" />
             </div>
           </div>
         </div>
@@ -26,7 +27,7 @@ const FiveFold = () => {
               It’s quick and easy to find just what you’re looking for in Maps.
             </div>
             <div className="py-10">
-              <img className="imgWidth" src="" alt="LiveTra" />
+              <img className="imgWidth" src={LiveTrackingImg} alt="LiveTra" />
             </div>
           </div>
         </div>
@@ -39,7 +40,7 @@ const FiveFold = () => {
               It’s quick and easy to find just what you’re looking for in Maps.
             </div>
             <div className="py-10">
-              <img className="imgWidth" src="" alt="LiveTra" />
+              <img className="imgWidth" src={LiveTrackingImg} alt="LiveTra" />
             </div>
           </div>
         </div>
