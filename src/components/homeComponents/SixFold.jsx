@@ -11,7 +11,7 @@ const SixFold = () => {
             Globally
           </div>
           <div className="py-16">
-            <img src={ThirdSectionImg} alt="" />
+            <img className="imgWidth" src={ThirdSectionImg} alt="" />
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const SevenFold = () => {
           <div className="text-thirdTextHeading">
             What People say about working with me
           </div>
-          <div className="py-8~">
+          <div className="py-8">
             <div className="pr-4">
               <img src={BubbleImagesFirst} alt="" />
             </div>

@@ -36,7 +36,7 @@ function SecondFold() {
           </div>
           <div className="h-80 pt-8">
             <div className="bg-[#FFF4D2] rounded-sm">
-              <img className="pt-1" src={videoSecondSection} alt="videoData" />
+              <img className="pt-1 imgWidth" src={videoSecondSection} alt="videoData" />
             </div>
           </div>
         </div>
