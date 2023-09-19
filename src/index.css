@@ -57,10 +57,11 @@ body {
 .videoFix {
   height: 17rem !important;
   width: 10rem !important;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   border-radius: 5%;
   z-index: 1;
   object-fit: fill;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .closeIcon {
   z-index: 2;
@@ -85,8 +86,12 @@ body {
   /* height : calc(var(--vh, 1vh) * (9/16)); 4:3 */
   height: 20rem;
   width: 12rem;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   border-radius: 5%;
   z-index: 1;
   object-fit: fill;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.imgWidth {
+  width: 100%;
 }
