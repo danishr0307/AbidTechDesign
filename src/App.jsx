@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router";
@@ -38,7 +39,17 @@ function App() {
                 alt="CloseIcon"
               />
             </button>
-            <video
+            <div className={heightInc ? "videoHeightInc" : "videoFix"}>
+              <ReactPlayer
+                playing="true"
+                loop="true"
+                muted={!heightInc}
+                url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            {/* <video
               autoPlay
               muted={!heightInc}
               playsinline
@@ -49,7 +60,7 @@ function App() {
                 src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
                 type="video/mp4"
               />
-            </video>
+            </video> */}
             <button
               className="fullWidthIcon"
               onClick={() => setHeightInc(true)}
