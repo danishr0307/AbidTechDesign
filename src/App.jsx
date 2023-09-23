@@ -7,7 +7,7 @@ import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
- import abidVideo from "./images/abidvide.mp4";
+import abidVideo from "./images/abidvide.mp4";
 import CloseIcon from "./images/CLoseIcon.svg";
 import FullWidthIcon from "./images/fullWidthIcon.svg";
 
@@ -41,7 +41,9 @@ function App() {
             <video
               autoPlay
               muted={!heightInc}
-              className={heightInc ? "videoHeightInc" : "videoFix"}>
+              playsinline
+              className={heightInc ? "videoHeightInc" : "videoFix"}
+            >
               <source
                 className=""
                 src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
@@ -50,7 +52,8 @@ function App() {
             </video>
             <button
               className="fullWidthIcon"
-              onClick={() => setHeightInc(true)}>
+              onClick={() => setHeightInc(true)}
+            >
               <img
                 className="widthIconSize h-10 w-8"
                 src={FullWidthIcon}
