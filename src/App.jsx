@@ -40,16 +40,16 @@ function App() {
               />
             </button>
             <div className={heightInc ? "videoHeightInc" : "videoFix"}>
-              <ReactPlayer
+              {/* <ReactPlayer
                 playing="true"
                 loop="true"
                 muted={!heightInc}
                 url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
                 width="100%"
                 height="100%"
-              />
+              /> */}
             </div>
-            {/* <video
+            <video
               autoPlay
               muted={!heightInc}
               playsinline
@@ -60,7 +60,7 @@ function App() {
                 src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
                 type="video/mp4"
               />
-            </video> */}
+            </video>
             <button
               className="fullWidthIcon"
               onClick={() => setHeightInc(true)}
