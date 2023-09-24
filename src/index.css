@@ -55,8 +55,8 @@ body {
   border-radius: 3px;
 }
 .videoFix {
-  height: 17rem !important;
-  width: 10rem !important;
+  max-height: 17rem !important;
+  max-width: 10rem !important;
   border: 3px solid #ffffff;
   border-radius: 5%;
   z-index: 1;
@@ -84,8 +84,8 @@ body {
 }
 .videoHeightInc {
   /* height : calc(var(--vh, 1vh) * (9/16)); 4:3 */
-  height: 20rem;
-  width: 12rem;
+  max-height: 20rem;
+  max-width: 12rem;
   border: 3px solid #ffffff;
   border-radius: 5%;
   z-index: 1;
