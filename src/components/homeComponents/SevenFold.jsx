@@ -8,10 +8,10 @@ const SevenFold = () => {
     <>
       <div className="bg-[#F1FEFF]">
         <div className="mx-10 py-16">
-          <div className="text-fiveTextHeading font-semibold mb-6">
+          <div className="text-fiveTextHeading font-semibold mb-6 text-center">
             Endorsement
           </div>
-          <div className="text-thirdTextHeading">
+          <div className="text-thirdTextHeading text-center">
             What People say about working with me
           </div>
           <div className="py-8">

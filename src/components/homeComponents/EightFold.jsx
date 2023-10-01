@@ -9,7 +9,7 @@ import DribbleIcon from "../../images/Dribble-Icon.svg";
 const EightFold = () => {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-primaryWhite">
         <div className="mx-10">
           <div className="text-fiveTextHeading py-6">
             Exploring the Nexus of Design and Research: Unveiling Experiment

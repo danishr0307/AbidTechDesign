@@ -9,20 +9,21 @@ const FourthFold = () => {
         <div className=" py-10">
           <img className="imgWidth" src={CRMDashboardImg} alt="" />
         </div>
-        <div className="text-[#042825] text-fiveTextHeading py-12">
-          Set up a sales incentive Program. Elitebiz CRM
+        <div className="text-primaryDarkGreen text-fiveTextHeading py-12">
+          Elitebiz CRM- Set up a sales incentive program.
         </div>
         <div className="text-secondTextHeading">
-          MacOS Ventura was designed to maximize the capabilities of Apple
-          silicon. So your go-to pro apps run faster, and multitasking is
-          smoother than ever. With over 15,000 optimized apps and plug‑ins
+          Create lasting customer relationships with the top premier CRM
+          Software assign them to the concerned sales representatives depending
+          on their area of expertise and ensure sales fulfilment within the
+          committed time to the customer.
         </div>
         <div className="">
           <div className="py-16">
             <span className="text-secondTextHeading font-semibold">
               <a href="" className=" inline-flex" target="_blank">
                 <span className="border-b-2 border-[#000] text-sm">
-                  View The Project
+                  Explore the Projects
                 </span>
                 <span className="ml-5 pt-2">
                   <img

@@ -5,35 +5,34 @@ import ZPayImg from "../../images/ZPayImgesFull.svg";
 
 const ThirdFold = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-primaryWhite">
       <div className="mx-10">
-        <div className="text-[#042825] text-fiveTextHeading py-12">
-          Recent Work with good team on some projects that help mankind become a
-          better version of itself.
+        <div className="text-primaryDarkGreen text-SevenTextHeading py-12">
+          Engaged in impactful projects with a skilled team, dedicated to
+          empowering humanity's evolution.
         </div>
-        <div className="text-secondTextHeading">
-          I animated user flows and features created by our team's designers and
-          myself and turned them into interactive prototypes to communicate our
-          vision to the leadership team.Although the most of of the ideas were
-          never implemented, having them all in one place set the stage for
-          future Outlook mail.
+        <div className="text-primaryDarkGreen text-secondTextHeading">
+          I developed interactive prototypes to present my vision to the
+          leadership team. While not all ideas were implemented, these
+          prototypes encompassed various design variations that may find utility
+          in future feature projects."
         </div>
         <div className="">
           <div className="py-10">
             <img className="imgWidth" src={ThirdSectionImg} alt="" />
           </div>
-          <div className="text-fiveTextHeading text-[#042825] py-4">
-            Source Correct Saas
+          <div className="text-fiveTextHeading text-primaryDarkGreen  py-4">
+            Source Correct - Saas
           </div>
-          <div className="text-SixTextHeading py-4 text-[#042825]">
-            Crisp Designing a new mobile experience for the all-in-one messaging
-            platform.
+          <div className="text-thirdTextHeading py-4 text-primaryDarkGreen">
+            Our mission is to get Empower Amazon sellers with exceptional deals
+            on essential tools for success."
           </div>
           <div className="pt-10">
             <span className="text-secondTextHeading font-semibold">
               <a href="" className=" inline-flex" target="_blank">
                 <span className="border-b-2 border-[#000] text-sm">
-                  View The Project
+                  Explore the Projects
                 </span>
                 <span className="ml-5 pt-2">
                   <img
@@ -51,19 +50,19 @@ const ThirdFold = () => {
                 <img className="imgWidth" src={ZPayImg} alt="" />
               </div>
             </div>
-            <div className="text-fiveTextHeading text-[#042825] py-10">
-              Z Pay
+            <div className="text-fiveTextHeading text-primaryDarkGreen py-10">
+              Z-Pay - Fintech
             </div>
-            <div className="text-SixTextHeading text-[#042825]">
-              Crisp Designing a new mobile experience for the all-in-one
-              messaging platform.
+            <div className="text-thirdTextHeading text-primaryDarkGreen">
+              Parental Financial App Management Monitoring and Analyzing Kids'
+              Spending
             </div>
 
             <div className="py-16">
               <span className="text-secondTextHeading font-semibold">
                 <a href="" className=" inline-flex" target="_blank">
                   <span className="border-b-2 border-[#000] text-sm">
-                    View The Project
+                    Explore the Projects
                   </span>
                   <span className="ml-5 pt-2">
                     <img
