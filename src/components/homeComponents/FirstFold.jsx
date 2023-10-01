@@ -15,21 +15,21 @@ const FirstFold = () => {
             </span>
           </div>
           <div className="text-firstTextHeading leading-height">
-            <h2 className="pt-10">
+            <h2 className="pt-10 text-secondaryLightGrayWhite">
               I'm Abid, a Product Designer at &nbsp;
-              <span className="text-[#008F7C] font-bold ">
+              <span className="text-primaryLightGreen font-bold ">
                 Delivery Solution.
               </span>
               &nbsp;I enjoy creating User-centric, delightful, and human
               experiences.
             </h2>
             <div className="pt-6">
-              <span className="text-secondTextHeading">
+              <span className="text-secondTextHeading text-secondaryLightGray2">
                 Previously at Mintifi & Insomniacs
               </span>
             </div>
             <div className="pt-10">
-              <span className="text-secondTextHeading font-semibold">
+              <span className="text-secondTextHeading font-semibold text-secondaryLightGrayWhite">
                 <a href="" className=" inline-flex" target="_blank">
                   <span className="border-b-2 border-[#fff] text-sm">
                     Get My Resume
@@ -47,8 +47,6 @@ const FirstFold = () => {
           </div>
         </div>
       </section>
-
-   
     </>
   );
 };

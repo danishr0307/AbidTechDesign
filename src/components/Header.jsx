@@ -18,12 +18,12 @@ const Header = () => {
             <ul className="md:flex justify-end text-2xl hidden">
               {navData.map((data, index) => {
                 return (
-                  <li key={index} className="px-10 py-2 pt-6 text-white">
+                  <li key={index} className="px-10 py-2 pt-6 text-secondaryLightGrayWhite">
                     <Link to={data.link}>{data.name}</Link>
                   </li>
                 );
               })}
-              <button className="rounded-full ... bg-white text-cyan-800 px-10 font-semibold">
+              <button className="rounded-full ... bg-secondaryLightGrayWhite text-primaryDarkGreen px-10 font-semibold">
                 Get in Touch
               </button>
             </ul>
@@ -36,31 +36,31 @@ const Header = () => {
               <div
                 className={
                   isopen
-                    ? "-rotate-45 h-2 w-12 bg-white"
-                    : "h-2 w-12 bg-white mt-2"
+                    ? "-rotate-45 h-2 w-12 bg-secondaryLightGrayWhite"
+                    : "h-2 w-12 bg-secondaryLightGrayWhite mt-2"
                 }></div>
               <div
                 className={
                   isopen
-                    ? "rotate-45 h-2 w-12 bg-white"
-                    : "h-2 w-12 bg-white mt-2"
+                    ? "rotate-45 h-2 w-12 bg-secondaryLightGrayWhite"
+                    : "h-2 w-12 bg-secondaryLightGrayWhite mt-2"
                 }></div>
             </div>
           </nav>
           <div
             className={
               isopen
-                ? "list-none text-center bg-white mt-2 absolute w-4/5"
+                ? "list-none text-center bg-secondaryLightGrayWhite mt-2 absolute w-4/5"
                 : "hidden"
             }>
             {navData.map((data, index) => {
               return (
-                <li key={index} className="px-10 py-2 pt-6 text-black text-lg">
+                <li key={index} className="px-10 py-2 pt-6 text-primaryDarkGreen text-lg">
                   <Link to={data.link}>{data.name}</Link>
                 </li>
               );
             })}
-            <button className="rounded-full ... bg-slate-800 text-white py-2 px-10 font-semibold mb-2">
+            <button className="rounded-full ... bg-primaryDarkGreen text-secondaryLightGrayWhite py-2 px-10 font-semibold mb-2">
               Get in Touch
             </button>
           </div>
