@@ -5,7 +5,7 @@ import { data } from "../components/Data";
 
 const navData = data.pathAndName;
 const Header = () => {
-  const [isopen, setIsopen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
@@ -31,17 +31,17 @@ const Header = () => {
             <div
               className="md:hidden"
               onClick={() => {
-                setIsopen(!isopen);
+                setIsOpen(!isOpen);
               }}>
               <div
                 className={
-                  isopen
+                  isOpen
                     ? "-rotate-45 h-2 w-12 bg-secondaryLightGrayWhite"
                     : "h-2 w-12 bg-secondaryLightGrayWhite mt-2"
                 }></div>
               <div
                 className={
-                  isopen
+                  isOpen
                     ? "rotate-45 h-2 w-12 bg-secondaryLightGrayWhite"
                     : "h-2 w-12 bg-secondaryLightGrayWhite mt-2"
                 }></div>
@@ -49,7 +49,7 @@ const Header = () => {
           </nav>
           <div
             className={
-              isopen
+              isOpen
                 ? "list-none text-center bg-secondaryLightGrayWhite mt-2 absolute w-4/5"
                 : "hidden"
             }>

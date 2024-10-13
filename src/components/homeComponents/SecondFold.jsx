@@ -1,16 +1,16 @@
 import React from "react";
-import videoSecondSection from "../../images/VIDEO.png";
+import videoSecondSection from "../../videos/VoiceMsg.mp4";
 import MarqueeOne from "./MarqueeOne";
 function SecondFold() {
   // let videoSecondSection = data.logoNameAndImages
   return (
     <>
       <p className="text-fourHeading text-center mt-20 flex justify-center items-center gap-6">
-        <div className="bg-white opacity-50 w-32 h-1 bg-gradient-to-r from-black via-white to-black"></div>
+        <div className="bg-white opacity-50 w-32 h-1 bg-gradient-to-r from-black via-white to-black gradientBG"></div>
         <div className="text-fourthTextHeading text-secondaryLightYellow">
           WORKED FOR THE BEST
         </div>
-        <div className="bg-white opacity-50 w-32 h-1 bg-gradient-to-l from-black via-white to-black"></div>
+        <div className="bg-white opacity-50 w-32 h-1 bg-gradient-to-l from-black via-white to-black gradientBG"></div>
       </p>
       <section className="block mt-12">
         <div className="flex relative  overflow-x-hidden">

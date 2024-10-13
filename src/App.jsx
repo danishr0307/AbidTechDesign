@@ -7,7 +7,7 @@ import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
- import abidVideo from "./images/abidvide.mp4";
+//  import abidVideo from "./images/abidvide.mp4";
 import CloseIcon from "./images/CLoseIcon.svg";
 import FullWidthIcon from "./images/fullWidthIcon.svg";
 

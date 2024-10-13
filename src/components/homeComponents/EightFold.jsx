@@ -51,7 +51,7 @@ const EightFold = () => {
             </div>
           </div>
           <div className="py-10">
-            <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+            <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
           </div>
           <div className="text-center">
             <div className="text-fiveTextHeading py-4 font-semibold">
@@ -67,13 +67,21 @@ const EightFold = () => {
 
             <div className="flex justify-center gap-8 py-10">
               <div className="">
-                <img src={LinkedInIcon} alt="" />
+                <img
+                  className="socialMediaIcon LinkedInIconHover"
+                  src={LinkedInIcon}
+                  alt=""
+                />
               </div>
               <div className="">
-                <img src={InstagramIcon} alt="" />
+                <img className="socialMediaIcon" src={InstagramIcon} alt="" />
               </div>
               <div className="">
-                <img src={DribbleIcon} alt="" />
+                <a
+                  href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image"
+                  target="-blank">
+                  <img className="socialMediaIcon" src={DribbleIcon} alt="" />
+                </a>
               </div>
             </div>
             <div className="text-center text-[#A8A8A8] text-SixTextHeading py-16">

@@ -12,7 +12,7 @@ const FiveFold = () => {
               <img className="imgWidth" src={TrackingLive} alt="LiveTra" />
             </div>
             <div className="text-fiveTextHeading">
-              One-tap Natrual Filter Interaction
+              One-tap Natural Filter Interaction
             </div>
             <div className="text-SixTextHeading py-5 pb-10">
               It’s quick and easy to find just what you’re looking for in Maps.
